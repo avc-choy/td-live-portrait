@@ -45,11 +45,11 @@ def main():
             break
 
         # Process the frame
-        
+
         result = live_portrait_pipeline.generate_frame(x_s, f_s, R_s, x_s_info, lip_delta_before_animation, crop_info, img_rgb, frame)
         cv2.imshow('img_rgb Image', img_rgb)
         cv2.imshow('Source Frame', frame)
-        
+
 
         # [Key Change] Convert the result from RGB to BGR before displaying
         result_bgr = cv2.cvtColor(result, cv2.COLOR_RGB2BGR)
@@ -65,7 +65,7 @@ def main():
     # When everything is done, release the capture
     cap.release()
     cv2.destroyAllWindows()
-    
+
     # live_portrait_pipeline.execute_frame(result_bgr)
 
 
@@ -95,7 +95,7 @@ if __name__ == '__main__':
 #         self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 480)
 #         self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 #         self.cap.set(cv2.CAP_PROP_FPS, 60)
-        
+
 #         if not self.cap.isOpened():
 #             print("Failed to open camera")
 #             self.running = False
@@ -105,17 +105,17 @@ if __name__ == '__main__':
 #             self.running = True
 #             self.thread = threading.Thread(target=self.update, args=())
 #             self.thread.start()
-    
+
 #     def update(self):
 #         while self.running:
 #             self.ret, self.frame = self.cap.read()
 #             if not self.ret:
 #                 print("Failed to read frame")
 #                 break
-    
+
 #     def read(self):
 #         return self.ret, self.frame
-    
+
 #     def release(self):
 #         self.running = False
 #         self.thread.join()
@@ -161,10 +161,10 @@ if __name__ == '__main__':
 #         result = live_portrait_pipeline.generate_frame(x_s, f_s, R_s, x_s_info, lip_delta_before_animation, crop_info, img_rgb, frame)
 #         # cv2.imshow('img_rgb Image', img_rgb)
 #         cv2.imshow('Webcam Frame', frame)
-        
+
 #         # Convert the result from RGB to BGR before displaying
 #         result_bgr = cv2.cvtColor(result, cv2.COLOR_RGB2BGR)
-        
+
 #         # Display the resulting frame
 #         cv2.imshow('Webcam Live Portrait', result_bgr)
 

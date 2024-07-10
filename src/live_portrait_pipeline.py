@@ -4,6 +4,7 @@ Pipeline of LivePortrait
 
 import cv2
 import numpy as np
+import torch
 import pickle
 import os.path as osp
 from rich.progress import track
@@ -32,7 +33,21 @@ class LivePortraitPipeline(object):
         self.live_portrait_wrapper: LivePortraitWrapper = LivePortraitWrapper(cfg=inference_cfg)
         self.cropper = Cropper(crop_cfg=crop_cfg)
 
-    def execute_frame(self, frame, source_image_path):
+    def execute(self, source_image, driving_frame, init, img=None):
+
+        if init:
+            return self.init_source(source_image)
+        else:
+            x_s = img[0]
+            f_s = img[1]
+            R_s = img[2]
+            x_s_info = img[3]
+            lip_delta_before_animation = img[4]
+            crop_info = img[5]
+            img_rgb = img[6]
+            return self.generate_frame(x_s, f_s, R_s, x_s_info, lip_delta_before_animation, crop_info, img_rgb, driving_frame)
+
+    def init_source(self, source_image_path):
         inference_cfg = self.live_portrait_wrapper.cfg  # for convenience
 
         # Load and preprocess source image
@@ -47,7 +62,7 @@ class LivePortraitPipeline(object):
             I_s = self.live_portrait_wrapper.prepare_source(img_crop_256x256)
         else:
             I_s = self.live_portrait_wrapper.prepare_source(img_rgb)
-        
+
         x_s_info = self.live_portrait_wrapper.get_kp_info(I_s)
         x_c_s = x_s_info['kp']
         R_s = get_rotation_matrix(x_s_info['pitch'], x_s_info['yaw'], x_s_info['roll'])
@@ -65,13 +80,12 @@ class LivePortraitPipeline(object):
 
         return x_s, f_s, R_s, x_s_info, lip_delta_before_animation, crop_info, img_rgb
 
-    def generate_frame(self, x_s, f_s, R_s, x_s_info, lip_delta_before_animation, crop_info, img_rgb, driving_info):
+    def generate_frame(self, x_s, f_s, R_s, x_s_info, lip_delta_before_animation, crop_info, img_rgb, driving_frame):
         inference_cfg = self.live_portrait_wrapper.cfg  # for convenience
 
         # Process driving info
-        driving_rgb = cv2.resize(driving_info, (256, 256))
-        I_d_i = self.live_portrait_wrapper.prepare_driving_videos([driving_rgb])[0]
-
+        # driving_rgb = cv2.resize(driving_frame, (256, 256))
+        I_d_i = self.live_portrait_wrapper.prepare_frame(driving_frame)
 
         x_d_i_info = self.live_portrait_wrapper.get_kp_info(I_d_i)
         R_d_i = get_rotation_matrix(x_d_i_info['pitch'], x_d_i_info['yaw'], x_d_i_info['roll'])
@@ -92,7 +106,10 @@ class LivePortraitPipeline(object):
         if inference_cfg.flag_pasteback:
             mask_ori = prepare_paste_back(inference_cfg.mask_crop, crop_info['M_c2o'], dsize=(img_rgb.shape[1], img_rgb.shape[0]))
             I_p_i_to_ori_blend = paste_back(I_p_i, crop_info['M_c2o'], img_rgb, mask_ori)
-            return I_p_i_to_ori_blend
-        else:
-            return I_p_i
 
+            output = torch.from_numpy(I_p_i_to_ori_blend)
+            output = output.to('cuda')
+
+            return output
+        else:
+            return out['out']

@@ -1,0 +1,475 @@
+[07/10/24 18:05:58.599] [17056] [info]: Creating Comp
+[07/10/24 18:05:58.697] [17056] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:05:58.698] [17056] [info]: Vulkan Device Name: 0x2572b7d7080
+[07/10/24 18:05:58.699] [17056] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:05:58.699] [17056] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:05:58.699] [17056] [info]: Found suitable Vulkan device: 0x2572b7d7080
+[07/10/24 18:05:58.699] [17056] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:05:58.768] [17056] [info]: TEVulkanContext created
+[07/10/24 18:05:58.769] [17056] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:05:58.770] [17056] [info]: TEInstance created
+[07/10/24 18:05:58.770] [17056] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:05:58.771] [17056] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:05:58.791] [17056] [info]: Instance loading...
+[07/10/24 18:06:06.719] [19296] [info]: Instance ready: Success
+[07/10/24 18:06:06.719] [17056] [info]: Starting auto update
+[07/10/24 18:06:07.014] [19296] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:06:07.015] [17056] [info]: Applying layout change
+[07/10/24 18:06:10.827] [17056] [info]: Comp resources destroyed
+[07/10/24 18:08:26.638] [488] [info]: Creating Comp
+[07/10/24 18:08:26.705] [488] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:08:26.705] [488] [info]: Vulkan Device Name: 0x28c2c1fa870
+[07/10/24 18:08:26.705] [488] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:08:26.705] [488] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:08:26.706] [488] [info]: Found suitable Vulkan device: 0x28c2c1fa870
+[07/10/24 18:08:26.706] [488] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:08:26.776] [488] [info]: TEVulkanContext created
+[07/10/24 18:08:26.776] [488] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:08:26.777] [488] [info]: TEInstance created
+[07/10/24 18:08:26.777] [488] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:08:26.778] [488] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:08:26.782] [488] [info]: Instance loading...
+[07/10/24 18:08:32.606] [6768] [info]: Instance ready: Success
+[07/10/24 18:08:32.606] [488] [info]: Starting auto update
+[07/10/24 18:08:32.887] [6768] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:08:32.890] [488] [info]: Applying layout change
+[07/10/24 18:08:35.953] [488] [info]: Comp resources destroyed
+[07/10/24 18:10:44.840] [11340] [info]: Creating Comp
+[07/10/24 18:10:44.908] [11340] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:10:44.909] [11340] [info]: Vulkan Device Name: 0x206243726d0
+[07/10/24 18:10:44.909] [11340] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:10:44.909] [11340] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:10:44.909] [11340] [info]: Found suitable Vulkan device: 0x206243726d0
+[07/10/24 18:10:44.909] [11340] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:10:44.977] [11340] [info]: TEVulkanContext created
+[07/10/24 18:10:44.977] [11340] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:10:44.978] [11340] [info]: TEInstance created
+[07/10/24 18:10:44.978] [11340] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:10:44.979] [11340] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:10:44.984] [11340] [info]: Instance loading...
+[07/10/24 18:10:50.759] [11340] [info]: Starting auto update
+[07/10/24 18:10:50.759] [13804] [info]: Instance ready: Success
+[07/10/24 18:10:51.050] [13804] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:10:51.051] [11340] [info]: Applying layout change
+[07/10/24 18:10:54.126] [11340] [info]: Comp resources destroyed
+[07/10/24 18:16:10.570] [3596] [info]: Creating Comp
+[07/10/24 18:16:10.635] [3596] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:16:10.637] [3596] [info]: Vulkan Device Name: 0x1e32b435de0
+[07/10/24 18:16:10.637] [3596] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:16:10.638] [3596] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:16:10.638] [3596] [info]: Found suitable Vulkan device: 0x1e32b435de0
+[07/10/24 18:16:10.639] [3596] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:16:10.705] [3596] [info]: TEVulkanContext created
+[07/10/24 18:16:10.706] [3596] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:16:10.707] [3596] [info]: TEInstance created
+[07/10/24 18:16:10.707] [3596] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:16:10.708] [3596] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:16:10.712] [3596] [info]: Instance loading...
+[07/10/24 18:16:16.516] [10152] [info]: Instance ready: Success
+[07/10/24 18:16:16.516] [3596] [info]: Starting auto update
+[07/10/24 18:16:16.800] [10152] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:16:16.801] [3596] [info]: Applying layout change
+[07/10/24 18:16:20.213] [3596] [info]: Comp resources destroyed
+[07/10/24 18:18:10.928] [10040] [info]: Creating Comp
+[07/10/24 18:18:10.993] [10040] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:18:10.994] [10040] [info]: Vulkan Device Name: 0x29b2446de90
+[07/10/24 18:18:10.994] [10040] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:18:10.994] [10040] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:18:10.995] [10040] [info]: Found suitable Vulkan device: 0x29b2446de90
+[07/10/24 18:18:10.995] [10040] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:18:11.070] [10040] [info]: TEVulkanContext created
+[07/10/24 18:18:11.071] [10040] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:18:11.072] [10040] [info]: TEInstance created
+[07/10/24 18:18:11.072] [10040] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:18:11.072] [10040] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:18:11.076] [10040] [info]: Instance loading...
+[07/10/24 18:18:16.831] [15124] [info]: Instance ready: Success
+[07/10/24 18:18:16.831] [10040] [info]: Starting auto update
+[07/10/24 18:18:17.110] [15124] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:18:17.111] [10040] [info]: Applying layout change
+[07/10/24 18:18:20.475] [10040] [info]: Comp resources destroyed
+[07/10/24 18:19:41.749] [3048] [info]: Creating Comp
+[07/10/24 18:19:41.800] [3048] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:19:41.800] [3048] [info]: Vulkan Device Name: 0x293a2de7bc0
+[07/10/24 18:19:41.801] [3048] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:19:41.801] [3048] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:19:41.801] [3048] [info]: Found suitable Vulkan device: 0x293a2de7bc0
+[07/10/24 18:19:41.801] [3048] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:19:41.847] [3048] [info]: TEVulkanContext created
+[07/10/24 18:19:41.847] [3048] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:19:41.847] [3048] [info]: TEInstance created
+[07/10/24 18:19:41.848] [3048] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:19:41.848] [3048] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:19:41.851] [3048] [info]: Instance loading...
+[07/10/24 18:21:36.833] [15692] [info]: Creating Comp
+[07/10/24 18:21:36.972] [15692] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:21:36.973] [15692] [info]: Vulkan Device Name: 0x1a323affa80
+[07/10/24 18:21:36.973] [15692] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:21:36.973] [15692] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:21:36.973] [15692] [info]: Found suitable Vulkan device: 0x1a323affa80
+[07/10/24 18:21:36.973] [15692] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:21:37.032] [15692] [info]: TEVulkanContext created
+[07/10/24 18:21:37.032] [15692] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:21:37.033] [15692] [info]: TEInstance created
+[07/10/24 18:21:37.033] [15692] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:21:37.036] [15692] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:21:37.055] [15692] [info]: Instance loading...
+[07/10/24 18:21:46.201] [18116] [info]: Instance ready: Success
+[07/10/24 18:21:46.201] [15692] [info]: Starting auto update
+[07/10/24 18:21:46.482] [18116] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:21:46.482] [15692] [info]: Applying layout change
+[07/10/24 18:21:51.397] [15692] [info]: Comp resources destroyed
+[07/10/24 18:23:06.128] [16552] [info]: Creating Comp
+[07/10/24 18:23:06.184] [16552] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:23:06.185] [16552] [info]: Vulkan Device Name: 0x1ebab4f62c0
+[07/10/24 18:23:06.185] [16552] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:23:06.185] [16552] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:23:06.185] [16552] [info]: Found suitable Vulkan device: 0x1ebab4f62c0
+[07/10/24 18:23:06.185] [16552] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:23:06.232] [16552] [info]: TEVulkanContext created
+[07/10/24 18:23:06.232] [16552] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:23:06.232] [16552] [info]: TEInstance created
+[07/10/24 18:23:06.233] [16552] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:23:06.236] [16552] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:23:06.253] [16552] [info]: Instance loading...
+[07/10/24 18:23:13.763] [3724] [info]: Instance ready: Success
+[07/10/24 18:23:13.763] [16552] [info]: Starting auto update
+[07/10/24 18:23:14.043] [3724] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:23:14.044] [16552] [info]: Applying layout change
+[07/10/24 18:23:18.180] [16552] [info]: Comp resources destroyed
+[07/10/24 18:24:23.647] [15696] [info]: Creating Comp
+[07/10/24 18:24:23.704] [15696] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:24:23.705] [15696] [info]: Vulkan Device Name: 0x280a29a3af0
+[07/10/24 18:24:23.705] [15696] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:24:23.705] [15696] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:24:23.705] [15696] [info]: Found suitable Vulkan device: 0x280a29a3af0
+[07/10/24 18:24:23.706] [15696] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:24:23.748] [15696] [info]: TEVulkanContext created
+[07/10/24 18:24:23.748] [15696] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:24:23.748] [15696] [info]: TEInstance created
+[07/10/24 18:24:23.749] [15696] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:24:23.749] [15696] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:24:23.752] [15696] [info]: Instance loading...
+[07/10/24 18:24:29.611] [1584] [info]: Instance ready: Success
+[07/10/24 18:24:29.611] [15696] [info]: Starting auto update
+[07/10/24 18:24:29.892] [1584] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:24:29.893] [15696] [info]: Applying layout change
+[07/10/24 18:24:33.190] [15696] [info]: Comp resources destroyed
+[07/10/24 18:25:48.311] [13156] [info]: Creating Comp
+[07/10/24 18:25:48.368] [13156] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:25:48.369] [13156] [info]: Vulkan Device Name: 0x2aba3f74410
+[07/10/24 18:25:48.370] [13156] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:25:48.370] [13156] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:25:48.370] [13156] [info]: Found suitable Vulkan device: 0x2aba3f74410
+[07/10/24 18:25:48.370] [13156] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:25:48.420] [13156] [info]: TEVulkanContext created
+[07/10/24 18:25:48.420] [13156] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:25:48.420] [13156] [info]: TEInstance created
+[07/10/24 18:25:48.420] [13156] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:25:48.420] [13156] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:25:48.424] [13156] [info]: Instance loading...
+[07/10/24 18:25:54.290] [13156] [info]: Starting auto update
+[07/10/24 18:25:54.290] [2816] [info]: Instance ready: Success
+[07/10/24 18:25:54.566] [2816] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:25:54.566] [13156] [info]: Applying layout change
+[07/10/24 18:25:57.989] [13156] [info]: Comp resources destroyed
+[07/10/24 18:26:28.741] [4552] [info]: Creating Comp
+[07/10/24 18:26:28.794] [4552] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:26:28.797] [4552] [info]: Vulkan Device Name: 0x1c7236ec0c0
+[07/10/24 18:26:28.797] [4552] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:26:28.798] [4552] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:26:28.798] [4552] [info]: Found suitable Vulkan device: 0x1c7236ec0c0
+[07/10/24 18:26:28.798] [4552] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:26:28.843] [4552] [info]: TEVulkanContext created
+[07/10/24 18:26:28.843] [4552] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:26:28.843] [4552] [info]: TEInstance created
+[07/10/24 18:26:28.843] [4552] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:26:28.843] [4552] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:26:28.846] [4552] [info]: Instance loading...
+[07/10/24 18:26:34.654] [13468] [info]: Instance ready: Success
+[07/10/24 18:26:34.654] [4552] [info]: Starting auto update
+[07/10/24 18:26:34.936] [13468] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:26:34.936] [4552] [info]: Applying layout change
+[07/10/24 18:26:38.389] [4552] [info]: Comp resources destroyed
+[07/10/24 18:27:19.858] [13416] [info]: Creating Comp
+[07/10/24 18:27:19.911] [13416] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:27:19.912] [13416] [info]: Vulkan Device Name: 0x1d62f1e45d0
+[07/10/24 18:27:19.912] [13416] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:27:19.912] [13416] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:27:19.912] [13416] [info]: Found suitable Vulkan device: 0x1d62f1e45d0
+[07/10/24 18:27:19.912] [13416] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:27:19.954] [13416] [info]: TEVulkanContext created
+[07/10/24 18:27:19.954] [13416] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:27:19.955] [13416] [info]: TEInstance created
+[07/10/24 18:27:19.955] [13416] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:27:19.956] [13416] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:27:19.959] [13416] [info]: Instance loading...
+[07/10/24 18:27:25.786] [13416] [info]: Starting auto update
+[07/10/24 18:27:25.786] [7232] [info]: Instance ready: Success
+[07/10/24 18:27:26.059] [7232] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:27:26.061] [13416] [info]: Applying layout change
+[07/10/24 18:27:29.368] [13416] [info]: Comp resources destroyed
+[07/10/24 18:28:04.671] [1108] [info]: Creating Comp
+[07/10/24 18:28:04.724] [1108] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:28:04.724] [1108] [info]: Vulkan Device Name: 0x247a46e4150
+[07/10/24 18:28:04.724] [1108] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:28:04.724] [1108] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:28:04.725] [1108] [info]: Found suitable Vulkan device: 0x247a46e4150
+[07/10/24 18:28:04.725] [1108] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:28:04.766] [1108] [info]: TEVulkanContext created
+[07/10/24 18:28:04.767] [1108] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:28:04.767] [1108] [info]: TEInstance created
+[07/10/24 18:28:04.767] [1108] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:28:04.767] [1108] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:28:04.770] [1108] [info]: Instance loading...
+[07/10/24 18:28:10.582] [7872] [info]: Instance ready: Success
+[07/10/24 18:28:10.582] [1108] [info]: Starting auto update
+[07/10/24 18:28:10.870] [7872] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:28:10.871] [1108] [info]: Applying layout change
+[07/10/24 18:28:14.229] [1108] [info]: Comp resources destroyed
+[07/10/24 18:29:44.813] [1500] [info]: Creating Comp
+[07/10/24 18:29:44.865] [1500] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:29:44.866] [1500] [info]: Vulkan Device Name: 0x227a3544c50
+[07/10/24 18:29:44.866] [1500] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:29:44.866] [1500] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:29:44.866] [1500] [info]: Found suitable Vulkan device: 0x227a3544c50
+[07/10/24 18:29:44.866] [1500] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:29:44.908] [1500] [info]: TEVulkanContext created
+[07/10/24 18:29:44.908] [1500] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:29:44.908] [1500] [info]: TEInstance created
+[07/10/24 18:29:44.908] [1500] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:29:44.908] [1500] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:29:44.912] [1500] [info]: Instance loading...
+[07/10/24 18:31:38.093] [15756] [info]: Creating Comp
+[07/10/24 18:31:38.215] [15756] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:31:38.215] [15756] [info]: Vulkan Device Name: 0x207240553c0
+[07/10/24 18:31:38.216] [15756] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:31:38.216] [15756] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:31:38.216] [15756] [info]: Found suitable Vulkan device: 0x207240553c0
+[07/10/24 18:31:38.216] [15756] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:31:38.283] [15756] [info]: TEVulkanContext created
+[07/10/24 18:31:38.283] [15756] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:31:38.283] [15756] [info]: TEInstance created
+[07/10/24 18:31:38.283] [15756] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:31:38.287] [15756] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:31:38.307] [15756] [info]: Instance loading...
+[07/10/24 18:31:47.452] [19128] [info]: Instance ready: Success
+[07/10/24 18:31:47.452] [15756] [info]: Starting auto update
+[07/10/24 18:31:47.735] [19128] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:31:47.735] [15756] [info]: Applying layout change
+[07/10/24 18:31:52.368] [15756] [info]: Comp resources destroyed
+[07/10/24 18:34:14.267] [4548] [info]: Creating Comp
+[07/10/24 18:34:14.327] [4548] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:34:14.328] [4548] [info]: Vulkan Device Name: 0x2192afce210
+[07/10/24 18:34:14.328] [4548] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:34:14.328] [4548] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:34:14.328] [4548] [info]: Found suitable Vulkan device: 0x2192afce210
+[07/10/24 18:34:14.328] [4548] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:34:14.374] [4548] [info]: TEVulkanContext created
+[07/10/24 18:34:14.374] [4548] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:34:14.374] [4548] [info]: TEInstance created
+[07/10/24 18:34:14.374] [4548] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:34:14.378] [4548] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:34:14.393] [4548] [info]: Instance loading...
+[07/10/24 18:34:22.171] [11256] [info]: Instance ready: Success
+[07/10/24 18:34:22.171] [4548] [info]: Starting auto update
+[07/10/24 18:34:22.454] [11256] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:34:22.454] [4548] [info]: Applying layout change
+[07/10/24 18:34:26.427] [4548] [info]: Comp resources destroyed
+[07/10/24 18:37:40.147] [4348] [info]: Creating Comp
+[07/10/24 18:37:40.202] [4348] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:37:40.203] [4348] [info]: Vulkan Device Name: 0x20d2dc45d00
+[07/10/24 18:37:40.203] [4348] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:37:40.203] [4348] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:37:40.203] [4348] [info]: Found suitable Vulkan device: 0x20d2dc45d00
+[07/10/24 18:37:40.203] [4348] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:37:40.259] [4348] [info]: TEVulkanContext created
+[07/10/24 18:37:40.259] [4348] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:37:40.259] [4348] [info]: TEInstance created
+[07/10/24 18:37:40.259] [4348] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:37:40.259] [4348] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:37:40.263] [4348] [info]: Instance loading...
+[07/10/24 18:37:46.311] [8948] [info]: Instance ready: Success
+[07/10/24 18:37:46.311] [4348] [info]: Starting auto update
+[07/10/24 18:37:46.603] [8948] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:37:46.604] [4348] [info]: Applying layout change
+[07/10/24 18:38:29.557] [4348] [info]: Comp resources destroyed
+[07/10/24 18:40:01.808] [11688] [info]: Creating Comp
+[07/10/24 18:40:01.878] [11688] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:40:01.879] [11688] [info]: Vulkan Device Name: 0x23b302c4e80
+[07/10/24 18:40:01.879] [11688] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:40:01.880] [11688] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:40:01.880] [11688] [info]: Found suitable Vulkan device: 0x23b302c4e80
+[07/10/24 18:40:01.881] [11688] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:40:01.962] [11688] [info]: TEVulkanContext created
+[07/10/24 18:40:01.962] [11688] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:40:01.963] [11688] [info]: TEInstance created
+[07/10/24 18:40:01.963] [11688] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:40:01.964] [11688] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:40:01.969] [11688] [info]: Instance loading...
+[07/10/24 18:40:10.332] [14104] [info]: Instance ready: Success
+[07/10/24 18:40:10.332] [11688] [info]: Starting auto update
+[07/10/24 18:40:10.613] [14104] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:40:10.613] [11688] [info]: Applying layout change
+[07/10/24 18:40:16.854] [11688] [info]: Comp resources destroyed
+[07/10/24 18:41:30.810] [11636] [info]: Creating Comp
+[07/10/24 18:41:30.898] [11636] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:41:30.898] [11636] [info]: Vulkan Device Name: 0x1932b7eb800
+[07/10/24 18:41:30.898] [11636] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:41:30.899] [11636] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:41:30.899] [11636] [info]: Found suitable Vulkan device: 0x1932b7eb800
+[07/10/24 18:41:30.899] [11636] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:41:30.996] [11636] [info]: TEVulkanContext created
+[07/10/24 18:41:30.996] [11636] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:41:30.996] [11636] [info]: TEInstance created
+[07/10/24 18:41:30.996] [11636] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:41:31.000] [11636] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:41:31.030] [11636] [info]: Instance loading...
+[07/10/24 18:41:41.368] [17604] [info]: Instance ready: Success
+[07/10/24 18:41:41.368] [11636] [info]: Starting auto update
+[07/10/24 18:41:41.707] [17604] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:41:41.707] [11636] [info]: Applying layout change
+[07/10/24 18:42:37.364] [11636] [info]: Comp resources destroyed
+[07/10/24 18:42:55.672] [5028] [info]: Creating Comp
+[07/10/24 18:42:55.738] [5028] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:42:55.739] [5028] [info]: Vulkan Device Name: 0x2a3b8c84f30
+[07/10/24 18:42:55.739] [5028] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:42:55.739] [5028] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:42:55.739] [5028] [info]: Found suitable Vulkan device: 0x2a3b8c84f30
+[07/10/24 18:42:55.739] [5028] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:42:55.812] [5028] [info]: TEVulkanContext created
+[07/10/24 18:42:55.812] [5028] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:42:55.812] [5028] [info]: TEInstance created
+[07/10/24 18:42:55.813] [5028] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:42:55.813] [5028] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:42:55.818] [5028] [info]: Instance loading...
+[07/10/24 18:43:03.956] [1364] [info]: Instance ready: Success
+[07/10/24 18:43:03.956] [5028] [info]: Starting auto update
+[07/10/24 18:43:04.277] [1364] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:43:04.278] [5028] [info]: Applying layout change
+[07/10/24 18:43:33.363] [5028] [info]: Comp resources destroyed
+[07/10/24 18:43:54.633] [8624] [info]: Creating Comp
+[07/10/24 18:43:54.705] [8624] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:43:54.707] [8624] [info]: Vulkan Device Name: 0x2332c6f7f10
+[07/10/24 18:43:54.707] [8624] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:43:54.708] [8624] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:43:54.708] [8624] [info]: Found suitable Vulkan device: 0x2332c6f7f10
+[07/10/24 18:43:54.709] [8624] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:43:54.797] [8624] [info]: TEVulkanContext created
+[07/10/24 18:43:54.797] [8624] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:43:54.798] [8624] [info]: TEInstance created
+[07/10/24 18:43:54.798] [8624] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:43:54.799] [8624] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:43:54.805] [8624] [info]: Instance loading...
+[07/10/24 18:44:02.807] [516] [info]: Instance ready: Success
+[07/10/24 18:44:02.807] [8624] [info]: Starting auto update
+[07/10/24 18:44:03.142] [516] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:44:03.144] [8624] [info]: Applying layout change
+[07/10/24 18:44:16.417] [8624] [info]: Comp resources destroyed
+[07/10/24 18:44:27.631] [2924] [info]: Creating Comp
+[07/10/24 18:44:27.686] [2924] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:44:27.687] [2924] [info]: Vulkan Device Name: 0x1f8a7c977d0
+[07/10/24 18:44:27.687] [2924] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:44:27.687] [2924] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:44:27.687] [2924] [info]: Found suitable Vulkan device: 0x1f8a7c977d0
+[07/10/24 18:44:27.688] [2924] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:44:27.732] [2924] [info]: TEVulkanContext created
+[07/10/24 18:44:27.733] [2924] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:44:27.733] [2924] [info]: TEInstance created
+[07/10/24 18:44:27.733] [2924] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:44:27.733] [2924] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:44:27.736] [2924] [info]: Instance loading...
+[07/10/24 18:44:35.862] [8572] [info]: Instance ready: Success
+[07/10/24 18:44:35.862] [2924] [info]: Starting auto update
+[07/10/24 18:44:36.188] [8572] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:44:36.191] [2924] [info]: Applying layout change
+[07/10/24 18:46:35.313] [15384] [info]: Creating Comp
+[07/10/24 18:46:35.369] [15384] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:46:35.370] [15384] [info]: Vulkan Device Name: 0x1b7a4472db0
+[07/10/24 18:46:35.370] [15384] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:46:35.370] [15384] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:46:35.370] [15384] [info]: Found suitable Vulkan device: 0x1b7a4472db0
+[07/10/24 18:46:35.370] [15384] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:46:35.414] [15384] [info]: TEVulkanContext created
+[07/10/24 18:46:35.414] [15384] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:46:35.414] [15384] [info]: TEInstance created
+[07/10/24 18:46:35.414] [15384] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:46:35.414] [15384] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:46:35.418] [15384] [info]: Instance loading...
+[07/10/24 18:46:42.768] [15036] [info]: Instance ready: Success
+[07/10/24 18:46:42.769] [15384] [info]: Starting auto update
+[07/10/24 18:46:43.043] [15036] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:46:43.044] [15384] [info]: Applying layout change
+[07/10/24 18:46:52.948] [15384] [info]: Comp resources destroyed
+[07/10/24 18:47:08.148] [10696] [info]: Creating Comp
+[07/10/24 18:47:08.203] [10696] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:47:08.204] [10696] [info]: Vulkan Device Name: 0x1eb2b9a8270
+[07/10/24 18:47:08.204] [10696] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:47:08.204] [10696] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:47:08.204] [10696] [info]: Found suitable Vulkan device: 0x1eb2b9a8270
+[07/10/24 18:47:08.204] [10696] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:47:08.248] [10696] [info]: TEVulkanContext created
+[07/10/24 18:47:08.248] [10696] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:47:08.248] [10696] [info]: TEInstance created
+[07/10/24 18:47:08.248] [10696] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:47:08.248] [10696] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:47:08.252] [10696] [info]: Instance loading...
+[07/10/24 18:47:15.312] [16972] [info]: Instance ready: Success
+[07/10/24 18:47:15.312] [10696] [info]: Starting auto update
+[07/10/24 18:47:15.594] [16972] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:47:15.595] [10696] [info]: Applying layout change
+[07/10/24 18:52:31.265] [10696] [info]: Comp resources destroyed
+[07/10/24 18:52:41.942] [17484] [info]: Creating Comp
+[07/10/24 18:52:41.996] [17484] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:52:41.997] [17484] [info]: Vulkan Device Name: 0x2452c0c0c80
+[07/10/24 18:52:41.997] [17484] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:52:41.997] [17484] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:52:41.997] [17484] [info]: Found suitable Vulkan device: 0x2452c0c0c80
+[07/10/24 18:52:41.997] [17484] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:52:42.041] [17484] [info]: TEVulkanContext created
+[07/10/24 18:52:42.041] [17484] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:52:42.041] [17484] [info]: TEInstance created
+[07/10/24 18:52:42.041] [17484] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:52:42.041] [17484] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:52:42.044] [17484] [info]: Instance loading...
+[07/10/24 18:52:48.943] [2620] [info]: Instance ready: Success
+[07/10/24 18:52:48.943] [17484] [info]: Starting auto update
+[07/10/24 18:52:49.245] [2620] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:52:49.247] [17484] [info]: Applying layout change
+[07/10/24 18:52:52.974] [17484] [info]: Comp resources destroyed
+[07/10/24 18:53:58.267] [13680] [info]: Creating Comp
+[07/10/24 18:53:58.320] [13680] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:53:58.321] [13680] [info]: Vulkan Device Name: 0x214ac733640
+[07/10/24 18:53:58.321] [13680] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:53:58.321] [13680] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:53:58.321] [13680] [info]: Found suitable Vulkan device: 0x214ac733640
+[07/10/24 18:53:58.321] [13680] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:53:58.364] [13680] [info]: TEVulkanContext created
+[07/10/24 18:53:58.364] [13680] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:53:58.364] [13680] [info]: TEInstance created
+[07/10/24 18:53:58.364] [13680] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:53:58.365] [13680] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:53:58.368] [13680] [info]: Instance loading...
+[07/10/24 18:54:05.438] [17084] [info]: Instance ready: Success
+[07/10/24 18:54:05.438] [13680] [info]: Starting auto update
+[07/10/24 18:54:05.749] [17084] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:54:05.752] [13680] [info]: Applying layout change
+[07/10/24 18:54:32.898] [13680] [info]: Comp resources destroyed
+[07/10/24 18:58:37.566] [7164] [info]: Creating Comp
+[07/10/24 18:58:37.634] [7164] [info]: Successfully created a Vulkan Instance
+[07/10/24 18:58:37.635] [7164] [info]: Vulkan Device Name: 0x1ba9b9009c0
+[07/10/24 18:58:37.635] [7164] [info]: Vulkan Extensions Supported: true
+[07/10/24 18:58:37.635] [7164] [info]: Vulkan Queue Family Indices available: true
+[07/10/24 18:58:37.635] [7164] [info]: Found suitable Vulkan device: 0x1ba9b9009c0
+[07/10/24 18:58:37.635] [7164] [info]: Selected GPU: NVIDIA RTX A6000
+[07/10/24 18:58:37.704] [7164] [info]: TEVulkanContext created
+[07/10/24 18:58:37.705] [7164] [info]: Set CUDA device: 0 : NVIDIA RTX A6000 with compute 8
+[07/10/24 18:58:37.705] [7164] [info]: TEInstance created
+[07/10/24 18:58:37.705] [7164] [info]: TEInstance associated with Vulkan Graphics Context
+[07/10/24 18:58:37.705] [7164] [info]: Loading tox: TopChopDatIO.tox
+[07/10/24 18:58:37.711] [7164] [info]: Instance loading...
+[07/10/24 18:58:45.866] [13028] [info]: Instance ready: Success
+[07/10/24 18:58:45.866] [7164] [info]: Starting auto update
+[07/10/24 18:58:46.187] [13028] [info]: Instance loaded: There were warnings in the component
+[07/10/24 18:58:46.188] [7164] [info]: Applying layout change
+[07/10/24 18:59:08.497] [7164] [info]: Comp resources destroyed

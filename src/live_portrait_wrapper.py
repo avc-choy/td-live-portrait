@@ -5,6 +5,7 @@ Wrapper for LivePortrait core functions
 """
 
 import os.path as osp
+import torch.nn.functional as F
 import numpy as np
 import cv2
 import torch
@@ -72,6 +73,29 @@ class LivePortraitWrapper(object):
         x = torch.from_numpy(x).permute(0, 3, 1, 2)  # 1xHxWx3 -> 1x3xHxW
         x = x.cuda(self.device_id)
         return x
+
+    def prepare_frame(self, frame):
+
+        # Normalize and clip the images
+        frame = frame.float() / 255.0
+        frame = torch.clamp(frame, 0, 1)  # Ensure the values are within [0, 1]
+
+        # Discard the alpha channel (4th channel, A) to keep only RGB
+        if frame.size(0) == 4:
+            frame = frame[:3, :, :]  # Keep only the RGB channels
+
+        # Add a batch dimension
+        frame = frame.unsqueeze(0)  # CxHxW -> 1xCxHxW
+
+        # Resize the images to 256x256
+        frame = F.interpolate(frame, size=(256, 256), mode='bilinear', align_corners=False)
+
+        # Move the tensor to the specified device if needed
+        if frame.device != torch.device(self.device_id):
+            frame = frame.to(self.device_id)
+
+        return frame
+
 
     def prepare_driving_videos(self, imgs) -> torch.Tensor:
         """ construct the input as standard
